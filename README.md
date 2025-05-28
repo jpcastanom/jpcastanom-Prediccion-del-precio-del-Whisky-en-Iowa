@@ -6,6 +6,7 @@ Este proyecto se dedica a la predicción del precio del whisky en Iowa utilizand
 
 El repositorio se organiza de la siguiente manera:
 
+```
 Prediccion-del-precio-del-Whisky-en-Iowa/
 ├── LICENSE                                # Licencia del proyecto
 ├── Proyecto_Mode_IV_Aleja_Pablo_Pablo (1).pdf   # Documento de informe y análisis
@@ -17,7 +18,8 @@ Prediccion-del-precio-del-Whisky-en-Iowa/
 ├── Punto6Interfáz2.ipynb                  # Notebook para interfaz o despliegue (alternativa 2)
 ├── pyproject.toml                         # Archivo de configuración y dependencias del proyecto
 ├── README.md                              # Este archivo
-└── uv.lock    
+└── uv.lock
+```  
 
 Cada uno de estos elementos cumple un rol importante:
 - **Notebooks (.ipynb):** Contienen la exploración de datos, limpieza, análisis descriptivo, modelación y visualizaciones. Algunos se utilizan para crear interfaces.
@@ -51,6 +53,7 @@ Cada uno de estos elementos cumple un rol importante:
 La configuración del entorno y las dependencias necesarias se encuentran definidas en el archivo `pyproject.toml`, mientras que `uv.lock` garantiza que el entorno sea reproducible mediante el bloqueo de las versiones utilizadas.
 
 Además, podemos visualizar las dependencias en el siguiente árbol
+```
 
 mode4 v0.1.0
 ├── datetime v5.5
@@ -139,6 +142,7 @@ mode4 v0.1.0
     ├── pyzmq v26.4.0
     ├── tornado v6.5
     └── traitlets v5.14.3
+```
 
 ## Contribuciones y Licencia
 
